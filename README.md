@@ -6,11 +6,13 @@
 
 Curso para aprender **Node** de forma práctica
 **[Todos los jueves a las 18PM 🇪🇸 en Twitch](https://twitch.tv/midudev)**
+
 </div>
 
 ## 📹 Videos con las clases
 
 - 01: [Introducción a Node.js y módulos](https://www.youtube.com/watch?v=yB4n_K7dZV8)
+- 02: [Construye una API con Express](https://www.youtube.com/watch?v=YmZE1HXjpd4)
 
 ## Horario por países:
 
