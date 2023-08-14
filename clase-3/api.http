@@ -1,0 +1,35 @@
+
+### Traer todas las peliculas
+GET http://localhost:1234/movies
+
+### Traer pelicula por Id
+GET http://localhost:1234/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
+
+### Traer todas las peliculas relacionadas a una categoria.
+GET http://localhost:1234/movies?genre=Action
+
+### Agregar una nueva pelicula
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "The Godfather2",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "duration": 177,
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Action"],
+    "rate": 10
+}
+
+###Actualizar una pelicula
+PATCH http://localhost:1234/movies/bd892288-5a04-4d1b-a322-7a67323b0120
+Content-Type: application/json
+
+{
+  "title": "The Godfather",
+  "year": 1972,
+  "director": "Francis Ford Coppola",
+  "duration": 177,
+  "rate": 10
+}
